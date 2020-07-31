@@ -728,11 +728,19 @@ footer a:hover {
     height: 40px;
     width: 100%;
   }
+  .subheader_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#1fbad6));
+    background-image: linear-gradient(to top, #1eacc7 0%, #1fbad6 100%);
+  }
   .promo_header {
     font-size: 40px;
   }
   .promo_subheader {
     font-size: 30px;
+  }
+  .promo_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#1fbad6));
+    background-image: linear-gradient(to top, #1eacc7 0%, #1fbad6 100%);
   }
   .begin_block {
     -webkit-box-orient: vertical;

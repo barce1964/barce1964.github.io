@@ -875,8 +875,16 @@ footer a:hover {
     margin: 0 auto;
     margin-top: 10px;
   }
+  .subheader_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#1fbad6));
+    background-image: linear-gradient(to top, #1eacc7 0%, #1fbad6 100%);
+  }
   .promo_header {
     line-height: 45px;
+  }
+  .promo_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#1fbad6));
+    background-image: linear-gradient(to top, #1eacc7 0%, #1fbad6 100%);
   }
   .reasons {
     padding: 40px 0;

@@ -931,6 +931,10 @@ footer a:hover {
     font-size: 10px;
     margin-top: 6px;
   }
+  .subheader_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#1fbad6));
+    background-image: linear-gradient(to top, #1eacc7 0%, #1fbad6 100%);
+  }
   .promo {
     min-height: 400px;
     padding: 103px 0 35px 0;
@@ -954,6 +958,10 @@ footer a:hover {
     height: 50px;
     margin-top: 72px;
     border-radius: 25px;
+  }
+  .promo_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#1fbad6));
+    background-image: linear-gradient(to top, #1eacc7 0%, #1fbad6 100%);
   }
   .menu {
     width: 85%;

@@ -37,7 +37,7 @@ function init() {
 	ambientLight = new THREE.AmbientLight(0x333333);
 
 	light = new THREE.PointLight(0xFFFFFF);
-	light.intensity = 8;
+	light.intensity = 32;
 	light.position.set(0, 0, 0);
 
 	renderer = new THREE.WebGLRenderer({antialias: true});
